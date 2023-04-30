@@ -149,5 +149,13 @@ namespace Snake
                 await Task.Delay(500);
             }        
         }
+
+        //This method will help to restart the game
+        private async Task ShowGameOver() 
+        { 
+            await Task.Delay(1000);
+            Overlay.Visibility = Visibility.Visible;
+            OverlayText.Text = "PRESS ANY KEY TO START";
+        }
     }
 }
