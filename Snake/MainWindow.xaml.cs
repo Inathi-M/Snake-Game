@@ -28,6 +28,17 @@ namespace Snake
 
         };
 
+
+        //This method rotates the head of the snake or eyes more accurately to any direction that the snake moves
+        private readonly Dictionary<Direction, int> dirToRotation = new Dictionary<Direction, int>() 
+        {
+            { Direction.Up, 0},
+            {Direction.Right,90 },
+            { Direction.Down, 180 },
+            { Direction.Left, 270 }
+
+        };
+
         private readonly int rows = 15, columns = 15;
         private readonly Image[,] gridImages;
         private GameState gameState;
@@ -49,6 +60,8 @@ namespace Snake
             await ShowCountDown();
             Overlay.Visibility = Visibility.Hidden;
             await GameLoop();
+            await ShowGameOver();
+            gameState = new GameState(rows, columns);
         }
 
         private async void Window_PreviewKeyDown(object sender, KeyEventArgs e) 
@@ -110,7 +123,8 @@ namespace Snake
                 {
                     Image image = new Image
                     {
-                        Source = Images.Empty
+                        Source = Images.Empty,
+                            RenderTransformOrigin = new Point(0.5,0.5),
                     };
 
                     images[r,c] = image;
@@ -122,9 +136,11 @@ namespace Snake
             return images;
         }
 
+        //This method draws the snake inside the Grid
         private void Draw()
         {
             DrawGrid();
+            DrawSnakeHead();
             ScoreText.Text = $"SCORE {gameState.Score}";
         }
 
@@ -136,8 +152,21 @@ namespace Snake
                 {
                     GridValue gridval = gameState.Grid[r,c];
                     gridImages[r,c].Source = gridValToImage[gridval];
+                    gridImages[r, c].RenderTransform = Transform.Identity; 
                 }
             }
+        }
+
+        //This method draws the snake's head
+        private void DrawSnakeHead() 
+        {
+            Position headPos = gameState.HeadPosition();
+            Image image = gridImages[headPos.Row, headPos.Column];
+            image.Source = Images.Head;
+
+            int rotation = dirToRotation[gameState.Dir];
+            image.RenderTransform = new RotateTransform(rotation);
+
         }
 
         //This method counts down the clock to the game starting
