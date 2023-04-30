@@ -7,5 +7,5 @@ namespace Snake
         Snake,
         Food,
         Outside
-    }
+    } 
 }

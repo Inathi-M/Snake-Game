@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+
 namespace Snake
 {
     public static class Images
@@ -11,9 +12,9 @@ namespace Snake
         public readonly static ImageSource Food = LoadImage("Food.png");
         public readonly static ImageSource DeadBody = LoadImage("DeadBody.png");
         public readonly static ImageSource DeadHead = LoadImage("DeadHead.png");
-        private static ImageSource LoadImage(string filename) 
+        private static ImageSource LoadImage(string fileName) 
         { 
-            return new BitmapImage(new Uri($"Assets/{filename}",UriKind.Relative));
+            return new BitmapImage(new Uri($"Assets/{fileName}",UriKind.Relative));
         }
     }
 }

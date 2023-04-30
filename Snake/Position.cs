@@ -16,7 +16,7 @@ namespace Snake
             Column = column;
         }
 
-        public Position Translate(Direction dir) {
+        public Position Translate(Direction dir) {  
             return new Position(Row + dir.RowOffset, Column + dir.ColumnOffset);
         }
 

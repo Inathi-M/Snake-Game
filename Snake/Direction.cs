@@ -15,9 +15,9 @@ namespace Snake
         public int RowOffset { get; }
         public int ColumnOffset { get; }
 
-        private Direction(int RowOffset,int ColumnOffset) {
-            RowOffset = RowOffset;
-            ColumnOffset = ColumnOffset;
+        private Direction(int rowOffset,int columnOffset) {
+            RowOffset = rowOffset;
+            ColumnOffset = columnOffset;
         }
 
         public Direction Opposite() { 
@@ -43,9 +43,6 @@ namespace Snake
         public static bool operator !=(Direction left, Direction right) { 
             return !(left == right);
         }
-
-
-
 
     }
 }
