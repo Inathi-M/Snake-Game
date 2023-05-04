@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\obj\Debug\net6.0-windows\
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\obj\Release\net6.0-windows\
 Snake
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
 C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\App.xaml
 11407045341
 
@@ -16,5 +16,5 @@ C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\App.xaml
 194101785492
 MainWindow.xaml;
 
-False
+True
 

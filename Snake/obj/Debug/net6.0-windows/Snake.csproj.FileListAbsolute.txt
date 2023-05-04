@@ -20,3 +20,25 @@ C:\Users\user\source\repos\Snake\Snake\obj\Debug\net6.0-windows\refint\Snake.dll
 C:\Users\user\source\repos\Snake\Snake\obj\Debug\net6.0-windows\Snake.pdb
 C:\Users\user\source\repos\Snake\Snake\obj\Debug\net6.0-windows\Snake.genruntimeconfig.cache
 C:\Users\user\source\repos\Snake\Snake\obj\Debug\net6.0-windows\ref\Snake.dll
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\bin\Debug\net6.0-windows\Snake.exe
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\bin\Debug\net6.0-windows\Snake.deps.json
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\bin\Debug\net6.0-windows\Snake.runtimeconfig.json
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\bin\Debug\net6.0-windows\Snake.dll
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\bin\Debug\net6.0-windows\Snake.pdb
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\obj\Debug\net6.0-windows\Snake.csproj.AssemblyReference.cache
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\obj\Debug\net6.0-windows\App.g.cs
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\obj\Debug\net6.0-windows\Snake_MarkupCompile.cache
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\obj\Debug\net6.0-windows\Snake_MarkupCompile.lref
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\obj\Debug\net6.0-windows\App.baml
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\obj\Debug\net6.0-windows\MainWindow.baml
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\obj\Debug\net6.0-windows\Snake.g.resources
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\obj\Debug\net6.0-windows\Snake.GeneratedMSBuildEditorConfig.editorconfig
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\obj\Debug\net6.0-windows\Snake.AssemblyInfoInputs.cache
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\obj\Debug\net6.0-windows\Snake.AssemblyInfo.cs
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\obj\Debug\net6.0-windows\Snake.csproj.CoreCompileInputs.cache
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\obj\Debug\net6.0-windows\Snake.dll
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\obj\Debug\net6.0-windows\refint\Snake.dll
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\obj\Debug\net6.0-windows\Snake.pdb
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\obj\Debug\net6.0-windows\Snake.genruntimeconfig.cache
+C:\UCT (lol)\Projects\Project 05\Snake Game\Snake\Snake\obj\Debug\net6.0-windows\ref\Snake.dll
